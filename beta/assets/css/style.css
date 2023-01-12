@@ -1,6 +1,0 @@
-.perfil {   /* colocar o ponto significa procurar em classes, não em tags */
-    border-radius: 100%; /* radio da borda, arredondamento */
-    max-width: 200px;   /* tamanho maximo */
-    border: 1px solid black;    /* borda, ofuscamento, cor */
-}
-
