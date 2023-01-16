@@ -147,21 +147,20 @@
 
 
 /* parte do projetos */
-.port :link{ 
-  color: #ffffff;
-}
+.port:link{ color: #ffffff;}
 
 /* link que foi visitado */
-.port :visited{
+.port:visited{
   color: #ffffff;
 }
 
 /* mouse over */
-.port :hover{
+.port:hover{
   color: #DC582A;
 }
 
 /* link selecionado */
-.port :active{
+
+.port:active{
   color: #ffffff;
 }
