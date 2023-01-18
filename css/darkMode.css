@@ -12,10 +12,44 @@ body.dark {
   color: #dcdcdce1;
 }
 
-body.dark h1, h2, h3, h4, h5, h6 {
-  color: #e6e6e6;
+body.dark h1 {
+  color: #C0C0C0;
+}
+body.dark h2 {
+  color: #C0C0C0;
+}
+body.dark h3 {
+  color: #C0C0C0;
+}
+body.dark h4 {
+  color: #C0C0C0;
+}
+body.dark h5 {
+  color: #C0C0C0;
+}
+body.dark h6 {
+  color: #C0C0C0;
 }
 
+
+body h1 {
+  color: #495057;
+}
+body h2 {
+  color: #495057;
+}
+body h3 {
+  color: #495057;
+}
+body h4 {
+  color: #495057;
+}
+body h5 {
+  color: #495057;
+}
+body h6 {
+  color: #495057;
+}
 
 
 

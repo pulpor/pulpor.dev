@@ -34,6 +34,7 @@ window.addEventListener('DOMContentLoaded', event => {
 // - (event listeners, forEach loop)
 
 // wait for the entire page to finish loading
+
 window.addEventListener('load', function() {
 	
 	// setTimeout to simulate the delay from a real page load
