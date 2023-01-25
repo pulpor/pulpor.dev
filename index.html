@@ -20,6 +20,21 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/mystyle.css" rel="stylesheet" />
         <link href="css/darkMode.css" rel="stylesheet" />
+
+        <link href="css/carrosel.css" rel="stylesheet" />
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!-- jQuery -->
+
+
+
+        <!-- compilador de .less
+        <link rel="stylesheet/less" type="text/css" href="css/carrosel.less">
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script> -->
+
+
+
+
     </head>
 
     <body id="page-top">
@@ -41,28 +56,32 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projetos</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#soft-skills">Skills</a></li>                    
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificações</a></li>
-                    <br><br><br><br><br><br><br>
-                <div class="bandeiras">
-                    <
-                </div> 
-                        
-                </ul>
-            </div>
-        </nav>
+<br>       <br>   <br>   <br>   <br>           
 
+
+
+    <img class="cat" src="assets/cat.svg">
+
+
+
+     
+                </ul>
+            </div>      
+                
+            <!-- botão dark mode -->
             <div class="text-end fixed-bottom p-4 botao">
                 <input type="checkbox" class="checkbox" id="chk" />
                 <label class="label" for="chk">
                     <i class="fas fa-moon"></i>
                     <i class="fas fa-sun"></i>
-                    <div class="ball"></div>
-               <!--   
-                     <img src="assets/img/eua.png" height="40">  
-                    <img src="assets/img/brasil.png" height="40"> -->  
+                        <div class="ball"></div>
+                        <!--     <img src="assets/img/eua.png" height="40">  
+                        <img src="assets/img/brasil.png" height="40"> -->  
                 </label>
-                
-                
             </div>
+        </nav>
+
+           
         
         <!-- Page Content-->
         <div class="container-fluid p-0">
@@ -211,14 +230,15 @@
             <hr class="m-0" />
 
             <hr class="m-0" />
+
             <!-- projetos -->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     
                     <h2 class="mb-5" data-aos="fade-right">Projetos</h2>      
 
-
                     <h1 class="title">Front-end</h1>
+
                     <div class="slider" x-data="{start: true, end: false}">
                       <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
                         
@@ -258,23 +278,18 @@
 
                         </div>
 
-
+                        <!-- botoes previous e next 
                       <div class="slider__nav">
                         <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth * -1, behavior: 'smooth'});" x-bind:class="start ? '' : 'slider__nav__button--active'">Anterior</button>
                         <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});" x-bind:class="end ? '' : 'slider__nav__button--active'">Próximo</button>
-                      </div>
+                      </div> -->
 
                     </div>
 
 
 
-
-
-
-
-
                       
-                    <br>
+                    <br><br><br><br><br>
                     <div class="subheading mb-3"  data-aos="fade-left">em breve mais...</div>
                     
                 </div>
@@ -352,33 +367,90 @@
                 </section> 
             -->
 
+
+
+
+
             <hr class="m-0" />
+
             <!-- Certificações -->
+
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5" data-aos="fade-right">Certificações</h2>
                     <ul class="fa-ul mb-0"  data-aos="fade-left">
 
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://drive.google.com/drive/folders/1ERD006AhodTqH7L-Ns6sAtELLmtc6eBE?usp=sharing" target="_blank">Área Tech</a>
-                        </li>
-                        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://drive.google.com/drive/folders/1HutEIoa2WDU0pTo_KJaqPeN1syheqYKz?usp=sharing" target="_blank">Designer</a>
-                        </li>
-                        
+
+                    
+            
+                    
+                        <div class="carrousel">
+                            <ul class="screens">
+                                <li id="s1">
+                                    <p>Screen 1</p>
+                                </li>
+                                <li id="s2" class="left">
+                                    <p></p>
+                                </li>
+                                <li id="s3" class="active">
+                                    <p>Screen 3</p>
+                                </li>
+                                <li id="s4" class="right">
+                                    <p>Screen 4</p>
+                                </li>
+                                <li id="s5">
+                                    <p>Screen 5</p>
+                                </li>
+                                <li id="s6">
+                                    <p>Screen 6</p>
+                                </li>
+                                <li id="s7">
+                                    <p>Screen 7</p>
+                                </li>
+                            </ul>
+                            <div class="pagination"></div>
+                        </div>
+
+
+
+
+
+
+                        <br><br><br><br>
+                       
+                       
+                       <div class="areas">
+                            
+                                <i class="fas fa-trophy text-warning"></i>
+                                <a href="https://drive.google.com/drive/folders/1ERD006AhodTqH7L-Ns6sAtELLmtc6eBE?usp=sharing" target="_blank">Área Tech</a>
+                            
+                                            
+                            
+                                <i class="fas fa-trophy text-warning"></i>
+                                <a href="https://drive.google.com/drive/folders/1HutEIoa2WDU0pTo_KJaqPeN1syheqYKz?usp=sharing" target="_blank">Designer</a>
+                            
+                        </div>
+
                     </ul>
                 </div>
-            </section>
-        </div>
 
+            </section>
+
+
+
+
+
+
+        </div>
+       
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scriptsPrincipal.js"></script>
+        
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     
+        <script src="js/scriptsPrincipal.js"></script>
+        
         <script>
           AOS.init({
             disable: 'mobile'

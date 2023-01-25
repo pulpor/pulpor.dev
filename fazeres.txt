@@ -1,0 +1,30 @@
+
+index
+  colocar o cv em inglês c bandeirinha linkada
+
+
+educação 
+  colocar link do tcc e do mini baja 
+
+
+proj front end
+
+  capas dos proj front-end
+    faze-las em gif
+
+  previous e next do proj front
+    arrumar e fazer funcionar
+
+  incrementar mais proj: games, forms, etc.
+
+
+( adicionar mais projs: python etc. )
+
+
+certificações 
+  scanear, ajustar e passar p drive
+
+
+
+* ideia do pet é legal
+

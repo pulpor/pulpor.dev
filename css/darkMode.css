@@ -104,20 +104,21 @@ body h6 {
   width: 50px;
   transform: scale(1.1);
   align-content: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
   
 
 }
 
 
 .label .ball {
+
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 22px;
-  width: 22px;
+  top: 2.8px;
+  left: 2.8px;
+  height: 20px;
+  width: 20px;
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
@@ -132,4 +133,17 @@ body h6 {
 
 .fa-sun {
   color: #DE6004;
+}
+
+
+
+
+/* cat */
+
+img .cat {
+  width: 0%;
+  height: 0%;
+  max-width: 20%;
+  display: flex;
+
 }

@@ -74,6 +74,7 @@
 
 
 body {
+  max-width: 100%;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -112,13 +113,9 @@ h6, h5, h4, h3, h2, h1, .h6, .h5, .h4, .h3, .h2, .h1 {
 }
 
 
-
 h1.dark {
   color: #20bf60;
 }
-
-
-
 
 
 
@@ -11426,11 +11423,13 @@ section.resume-section {
 
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+
 }
 
 
@@ -11452,3 +11451,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+
+
