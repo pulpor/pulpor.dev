@@ -55,11 +55,28 @@ body h6 {
 
 .botao{
 
-  display: flex; /* define a div como um elemento flexível */
+  /* display: inline-flex; */
+  
+ 
+  
+  position: fixed;
+ /* top: 25px;
+  right: -80%;
+  left: 0;
+  z-index: 1030;
+
+
+ /* define a div como um elemento flexível */
+  /*
   align-items: center; /* centraliza os itens verticalmente */
-  justify-content: center; /* centraliza os itens horizontalmente */
+  /*justify-content: center; /* centraliza os itens horizontalmente */ 
+  
+  gap: 1.5rem !important;
+  text-align: right !important;
 
 }
+
+
 
 .checkbox {
   opacity: 0;
@@ -76,7 +93,7 @@ body h6 {
 
 
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
 
   justify-content: space-between;
   align-items: center;
@@ -87,6 +104,7 @@ body h6 {
   width: 50px;
   transform: scale(1.1);
   align-content: center;
+  gap: 0.6rem;
   
 
 }
