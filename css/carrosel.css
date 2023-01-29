@@ -109,11 +109,13 @@
     background-image: url('/assets/certificados/eng2.png');
     background-size: cover;
     background-position: center;
+    object-fit: cover;
   }
   #s2 {
     background-image: url('/assets/certificados/inter1.jpg');
     background-size: cover;
     background-position: center;
+    object-fit: cover;
   }   /*
 
   #s3 {
@@ -146,73 +148,71 @@
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cv {
+  color: #fff;
+  
+}
 
 
 
 
 
 /** ================
- * Responsive
+ * Responsive cat
  ===================*/
+ 
  @media only screen and (min-width: 768px) and (max-width: 959px) {
- 	.pricing-wrapper {
+ 	.cat {
  		width: 768px;
  	}
 
- 	.pricing-table {
- 		width: 236px;
- 	}
-	
-	.table-list li {
-		font-size: 1.3em;
-	}
-
- }
+}
 
  @media only screen and (max-width: 767px) {
- 	.pricing-wrapper {
+ 	.cat {
  		width: 420px;
  	}
+   .cat {
+    width: 236px;
+  }
  }
 
 @media only screen and (max-width: 479px) {
-	.pricing-wrapper {
+	.cat {
 		width: 300px;
 	}
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover; /* ajusta a imagem ao espaço sem distorcer */
+}
+
+@media (max-width: 990px){
+  .cat {
+    width: 420px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .carrousel {
+    width: 100%;
+  }
+
+  .carrousel {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carrousel {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+ .carrousel {
+  width: 100%;
+ }
 }
