@@ -1,6 +1,7 @@
 
 index
   colocar o cv em inglês c bandeirinha linkada
+  adicionar cv compacto
 
 
 educação 
@@ -26,5 +27,5 @@ certificações
 
 
 
-* ideia do pet é legal
+
 

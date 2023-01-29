@@ -139,11 +139,3 @@ body h6 {
 
 
 /* cat */
-
-img .cat {
-  width: 0%;
-  height: 0%;
-  max-width: 20%;
-  display: flex;
-
-}

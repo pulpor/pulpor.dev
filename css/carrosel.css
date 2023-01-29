@@ -1,7 +1,7 @@
 
   .carrousel {
-    width: 850px;
-    height: calc(550px - 50px);
+    width: 800px;
+    height: calc(650px - 150px);
     margin: auto;
     overflow: hidden;
     font-size: 0;
@@ -10,10 +10,11 @@
   }
   .carrousel .screens {
     list-style: none;
+   
     padding: 0;
     margin: 0;
-   
-    width: 850px;
+    
+    width: 900px;
     height: 600px;
     position: relative;
     transform: translate(0%, -30%);
@@ -105,15 +106,16 @@
     opacity: 1;
   }
   #s1 {
-    background-image: url(https://lh3.google.com/u/0/d/1TGuUEaytQNwzmwsCXyMZ07H2_kHejzzN=w1274-h938-iv4);
+    background-image: url('/assets/certificados/eng2.png');
     background-size: cover;
     background-position: center;
   }
   #s2 {
-    background-image: url('/assets/certificados/obmep2.png');
+    background-image: url('/assets/certificados/inter1.jpg');
     background-size: cover;
     background-position: center;
-  }
+  }   /*
+
   #s3 {
     background-image: url(https://doocode.xyz/res/img/backgrounds/DCG32.png);
     background-size: cover;
@@ -142,10 +144,75 @@
   
 
 
+*/
 
 
 
 
-  /*  carrossel fas */ 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** ================
+ * Responsive
+ ===================*/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ 	.pricing-wrapper {
+ 		width: 768px;
+ 	}
+
+ 	.pricing-table {
+ 		width: 236px;
+ 	}
+	
+	.table-list li {
+		font-size: 1.3em;
+	}
+
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.pricing-wrapper {
+ 		width: 420px;
+ 	}
+ }
+
+@media only screen and (max-width: 479px) {
+	.pricing-wrapper {
+		width: 300px;
+	}
+}
