@@ -166,14 +166,12 @@
   color: #ffffff;
 }
 
-body {
-  font-size: 16px;
-  font-family: "Helvetica", "Arial", sans-serif;
+.diplomado {
   text-align: center;
-  background-color: #f8faff;
 }
 
 .bubbly-button {
+  text-align: center;
   font-family: "Helvetica", "Arial", sans-serif;
   display: inline-block;
   font-size: 1em;
