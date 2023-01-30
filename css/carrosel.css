@@ -105,14 +105,15 @@
   .carrousel .pagination li.active {
     opacity: 1;
   }
+  
   #s1 {
-    background-image: url('/assets/certificados/eng2.png');
+    background-image: url('https://lh3.google.com/u/0/d/1VBN_2wKaDfs3mvsWUOxLossRU9-E3q_i=w1920-h936-iv1');
     background-size: cover;
     background-position: center;
     object-fit: cover;
   }
   #s2 {
-    background-image: url('/assets/certificados/inter1.jpg');
+    background-image: url('https://lh3.google.com/u/0/d/1toPACVDClGlfvXvdR_Bc5mqYTtaL68-t=w1390-h936-iv1');
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -221,9 +222,12 @@ img {
 
 
 .gtranslate_wrapper{
+
+
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 
 }
