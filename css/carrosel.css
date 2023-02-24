@@ -149,18 +149,14 @@
 
 */
 
-.cv {
-  color: #fff;
-  
-}
 
 
 
 
 
-/** ================
- * Responsive cat
- ===================*/
+/* ================
+  gatinho 'responsivo'
+ =================== */
 
  @media only screen and (min-width: 768px) and (max-width: 959px) {
  	.cat {
@@ -220,14 +216,15 @@ img {
 
 
 
+/* botoes tradutores */
 
 .gtranslate_wrapper{
-
 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 
-
 }
+
+
